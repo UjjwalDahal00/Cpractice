@@ -25,7 +25,8 @@ loop:
         else
         {
             printf("Error Math\n");
-            break;
+
+            result = 0;
         }
         break;
 
@@ -35,7 +36,7 @@ loop:
     }
 
     printf("\nThe Result of calculation is : %d\n", result);
-    result=0;
+
     goto loop;
 
     return 0;
