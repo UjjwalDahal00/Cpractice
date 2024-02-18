@@ -4,7 +4,7 @@ int main()
     int num1, num2, result;
     char op;
 loop:
-    printf("Peform calculation here :\n");
+    printf("Peform calculation here : ");
     scanf("%d %c %d", &num1, &op, &num2);
     switch (op)
     {
@@ -30,11 +30,11 @@ loop:
         break;
 
     default:
-        printf("Error operator");
+        printf("Error operator\n");
         break;
     }
 
-    printf("The Result of calculation is : %d\n", result);
+    printf("\nThe Result of calculation is : %d\n", result);
     result=0;
     goto loop;
 
